@@ -1,0 +1,53 @@
+{
+  "dependencies": {
+    "apis1": {
+      "restored": true,
+      "restoreTime": "2024-10-22T19:05:56.4775745Z"
+    },
+    "identityapp1": {
+      "restored": false,
+      "restoreTime": "2024-10-22T21:07:38.2097092Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-10-22T21:08:21.4015949Z"
+    }
+  },
+  "parameters": {
+    "BookingService2024.resourceGroupName": {
+      "Name": "BookingService2024.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "tuanbook"
+    },
+    "BookingService2024.resourceName": {
+      "Name": "BookingService2024.resourceName",
+      "Type": null,
+      "Value": "BookingService2024"
+    },
+    "apis1.resourceGroupLocation": {
+      "Name": "apis1.resourceGroupLocation",
+      "Type": "location",
+      "Value": "eastasia"
+    },
+    "BookingService2024.resourceGroupLocation": {
+      "Name": "BookingService2024.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastasia"
+    },
+    "apis1.resourceGroupName": {
+      "Name": "apis1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "tuanbook"
+    },
+    "apis1.subscriptionId": {
+      "Name": "apis1.subscriptionId",
+      "Type": "subscription",
+      "Value": "c78446e1-0e8a-4f44-8389-9334973c13b6"
+    },
+    "BookingService2024.subscriptionId": {
+      "Name": "BookingService2024.subscriptionId",
+      "Type": "subscription",
+      "Value": "c78446e1-0e8a-4f44-8389-9334973c13b6"
+    }
+  }
+}

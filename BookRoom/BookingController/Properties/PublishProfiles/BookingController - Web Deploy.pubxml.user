@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk5+kRp6h50yoDvEvmuhIVwAAAAACAAAAAAAQZgAAAAEAACAAAACXxt3Xlbnd6HpDQdPyuuKqiAZRKYlVzDhw1Ph2RAaEgwAAAAAOgAAAAAIAACAAAAB9kSaOM6Da5PQpaaXlEQLMDMByQapNjbQTnzObe4mF0oAAAABx4dEbUneD2E3BauMQHxyRE8BoSl4LhcIyeAu/uLk9xgCAO2tHHMSMYVFLVFua7DUWhJnrJFAVXEI4aZ1GYIvLE9Mu39mxmebp/M0zFkhaeBdH7ACgVv0NL7Ti47Ed49RbCPeYk2ewa46BvK0+HE8JmGvIo24kguDovRn7pr26MUAAAADMC6C0GpurQ291Nvrly0H7NZjzB/UN906YUPgmwJ9gytTKuOxlLIHz8gCVSWwErYi0gV3V/4IZ46c0Mj29NZx3</EncryptedPassword>
+    <History>True|2024-11-08T19:47:11.7061919Z||;True|2024-11-09T00:43:49.2773108+07:00||;True|2024-11-09T00:33:55.6812221+07:00||;True|2024-11-08T22:56:53.3476645+07:00||;False|2024-11-08T22:42:38.8273978+07:00||;False|2024-11-08T22:36:54.6574757+07:00||;True|2024-11-08T19:38:45.7434233+07:00||;True|2024-11-08T16:47:14.1028167+07:00||;True|2024-11-08T16:40:27.7553511+07:00||;True|2024-11-08T16:01:19.1601782+07:00||;True|2024-11-08T14:34:32.6054643+07:00||;True|2024-11-08T13:16:14.0860497+07:00||;True|2024-11-08T05:13:23.2729517+07:00||;True|2024-11-08T04:42:54.4062016+07:00||;True|2024-11-08T04:27:25.3851778+07:00||;True|2024-11-08T04:18:55.3886828+07:00||;True|2024-11-08T03:27:04.9282506+07:00||;True|2024-11-08T03:05:48.2565440+07:00||;True|2024-11-07T23:02:34.2195249+07:00||;True|2024-11-06T00:26:04.9635051+07:00||;True|2024-11-05T22:36:22.9148162+07:00||;True|2024-11-05T16:22:08.7937014+07:00||;True|2024-11-05T06:16:52.9261269+07:00||;True|2024-11-05T02:40:12.6378098+07:00||;True|2024-11-02T01:21:50.5175445+07:00||;True|2024-11-02T00:48:47.4256142+07:00||;False|2024-11-02T00:46:35.5278085+07:00||;True|2024-11-01T04:39:14.2271422+07:00||;True|2024-10-30T00:04:10.2927839+07:00||;True|2024-10-29T23:57:50.1900638+07:00||;True|2024-10-29T23:39:00.7306763+07:00||;True|2024-10-29T23:25:21.1265466+07:00||;True|2024-10-29T23:17:44.6736031+07:00||;True|2024-10-29T16:11:45.3030715+07:00||;False|2024-10-29T16:09:33.9710575+07:00||;False|2024-10-29T16:06:27.4732109+07:00||;False|2024-10-29T16:05:03.6433269+07:00||;True|2024-10-27T15:57:08.0728981+07:00||;True|2024-10-27T13:06:02.9677038+07:00||;True|2024-10-25T16:36:29.5251114+07:00||;True|2024-10-25T15:53:27.9514715+07:00||;True|2024-10-25T00:07:27.7252495+07:00||;True|2024-10-24T14:08:43.9310685+07:00||;True|2024-10-24T13:59:51.2894185+07:00||;True|2024-10-24T04:34:16.7872398+07:00||;False|2024-10-24T04:33:37.3985044+07:00||;True|2024-10-24T04:32:54.8426339+07:00||;True|2024-10-24T00:41:55.5184410+07:00||;False|2024-10-24T00:29:21.0108135+07:00||;False|2024-10-24T00:25:52.5467476+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=bookroomanhtuan.database.windows.net,1433%3bInitial Catalog=bookingRoomm%3bUser ID=bookroomanhtuan%3bPassword=Anhtuan12345%40</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BOs.Entity.BookingRoommContext">
+      <Value>Data Source=bookroomanhtuan.database.windows.net,1433%3bInitial Catalog=bookingRoomm%3bUser ID=bookroomanhtuan%3bPassword=Anhtuan12345%40</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

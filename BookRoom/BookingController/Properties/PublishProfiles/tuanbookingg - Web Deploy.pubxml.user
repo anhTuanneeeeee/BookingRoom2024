@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAk5+kRp6h50yoDvEvmuhIVwAAAAACAAAAAAAQZgAAAAEAACAAAAAQAoAgC3pkCEyF4p1b9Q20wb4GF5VF3LsO7Taq9oVA6wAAAAAOgAAAAAIAACAAAAAcaD23QYyz1jGU4qzVFAqEjnUjq6JzWZGD6pXTRGwBn4AAAACOuncRHaeQOFmMELLchhKau4V7SWBTV4uaxoBRV/O3hiriY4NpayrOlntbcy2twib7QQyCO4/hLls78TdYYYsaEuHWhu8pqe4C97YrZBkRzaYv4uVgDilJKe2MQ/mas8pIdrB+f85BNA4nTmTqHbBX8tUpkUDTM1wYyWOQntkP6kAAAAAb+eBksKKLY/89rVJt3lsjegChzfnF/RmFl49zzw6ybzzcYUdXgSPcAtuU1Wj+v5BDF5jX6Tnm4n5397AD2wEK</EncryptedPassword>
+    <History>False|2024-10-22T18:54:30.6025902Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:bookroomanhtuan.database.windows.net,1433%3bDatabase=bookingRoomm%3bUid=bookroomanhtuan%3bPwd=Anhtuan12345%40%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BOs.Entity.BookroomSwdContext">
+      <Value>Server=tcp:bookroomanhtuan.database.windows.net,1433%3bDatabase=bookingRoomm%3bUid=bookroomanhtuan%3bPwd=Anhtuan12345%40%3bTrustServerCertificate=True</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
